@@ -1,0 +1,10 @@
+@mixin flex_layout($al: center, $js: center, $dir: row) {
+  display: flex;
+  align-items: $al;
+  justify-content: $js;
+  flex-direction: $dir;
+}
+@mixin font_layout($size: 120%, $wt: 500) {
+  font-size: $size;
+  font-weight: $wt;
+}
