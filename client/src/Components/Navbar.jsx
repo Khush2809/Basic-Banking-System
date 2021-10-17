@@ -19,6 +19,7 @@ import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
 import CarouselComponent from "../Components/CarouselComponent";
 import Categories from "./Categories";
+import Swiper from "./Swiper";
 
 const drawerWidth = 240;
 
@@ -145,8 +146,9 @@ export default function PersistentDrawerLeft() {
       </Drawer>
       <Main open={open}>
         <DrawerHeader />
-        <CarouselComponent />
+        {/* <CarouselComponent /> */}
         <Categories />
+        <Swiper />
       </Main>
     </Box>
   );

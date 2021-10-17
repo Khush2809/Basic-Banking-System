@@ -4,14 +4,14 @@ import { Carousel } from "react-responsive-carousel";
 import "../scss/CarouselComponent.scss";
 import jeeBooks from "./../Icons/jeeBooks.jpg";
 import buy2Books from "./../Icons/buy2Books.jpg";
-import chemistryBooks from "./../Icons/chemistryBooks.png";
+// import chemistryBooks from "./../Icons/chemistryBooks.png";
 import Img5 from "./../Icons/Img5.jpg";
 import Img6 from "./../Icons/Img6.jpg";
 import { Container } from "@mui/material";
 
 const CarouselComponent = () => {
   return (
-    <div>
+    <div className="outer-carousel">
       <Container>
         <Carousel>
           <div>

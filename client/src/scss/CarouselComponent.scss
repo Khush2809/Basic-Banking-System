@@ -1,7 +1,12 @@
 @import "./utilities.scss";
 .img {
   border-radius: 10px;
+  width: fit-content !important;
+  height: fit-content !important;
 }
 .carousel .thumbs {
   display: none;
+}
+.outer-carousel {
+  width: fit-content !important;
 }
